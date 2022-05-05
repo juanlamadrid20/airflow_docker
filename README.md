@@ -30,8 +30,13 @@ pip install -r requirements.txt
 
 > If using **pipenv**, run `pipenv shell` && `pipenv install`
 
+Note: There is a demo airflow code inside dags folder, feel free to delete it and create your own
 
 **Run docker compose**
 ```
 docker compose up
+```
+**Login Credentials for Airflow**
+```
+admin:admin
 ```
