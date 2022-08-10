@@ -38,7 +38,6 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - logs:/opt/airflow/logs
-
     env_file:
       - .env
     command: scheduler
